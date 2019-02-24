@@ -46,7 +46,7 @@ void loop() {
       Serial.println(2);
     }
   }
-  while (h3>=h2 && h3<h1) {
+  while (h3>=h2 || h3<h1) {
     if (butt == 1 && butt_flag == 1) {
       butt_flag = 0;
       myStepper_28BYJ.step(-5000);
