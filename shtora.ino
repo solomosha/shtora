@@ -72,7 +72,4 @@ void loop() {
     Serial.println(6);
   }
 
-
-
-stepper.run();
 }
